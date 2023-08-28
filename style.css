@@ -1,0 +1,300 @@
+
+.div1 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    animation-name: chang1;
+    animation-duration: 3s;
+
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chang1 {
+    0% {
+        left: 0;
+        background-color: blueviolet;
+        
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    40% {
+        background-color: brown;
+    }
+
+    60% {
+        background-color: chartreuse;
+    }
+
+    80% {
+        background-color: tomato;
+    }
+
+    100% {
+        background-color: black;
+        left: 1150px;
+    }
+}
+
+.div2 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    margin-left: 50px;
+    margin-right: 10px;
+    animation-name: chang2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+@keyframes chang2 {
+    0% {
+        right: 0;
+        background-color: green;
+    }
+
+    20% {
+        background-color: blue;
+    }
+
+    40% {
+        background-color: brown;
+    }
+
+    60% {
+        background-color: yellow;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: gray;
+        right: 1150px;
+    }
+}
+
+
+.div3 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: pink;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    animation-name: chang3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chang3 {
+    0% {
+        left: 0;
+        background-color: blueviolet;
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    40% {
+        background-color: brown;
+    }
+
+    60% {
+        background-color: chartreuse;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+        left: 1150px;
+    }
+}
+
+.div4 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    margin-left: 50px;
+    margin-right: 10px;
+    animation-name: chang4;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+@keyframes chang4 {
+    0% {
+        right: 0;
+        background-color: yellow;
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    40% {
+        background-color: blue;
+    }
+
+    60% {
+        background-color: chartreuse;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: black;
+        right: 1150px;
+    }
+}
+
+
+
+.div5 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 450px;
+    animation-name: chang5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chang5 {
+    0% {
+        left: 0;
+        background-color: rgba(48, 71, 201, 0.664);
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    40% {
+        background-color: brown;
+    }
+
+    60% {
+        background-color: chartreuse;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: gray;
+        left: 1150px;
+    }
+}
+
+.div6 {
+    width: 150px;
+    height: 75px;
+    border-radius: 4px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    top: 550px;
+    margin-left: 50px;
+    margin-right: 10px;
+    animation-name: chang6;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+@keyframes chang6 {
+    0% {
+        right: 0;
+        background-color: orangered;
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    40% {
+        background-color: brown;
+    }
+
+    60% {
+        background-color: chartreuse;
+    }
+
+    80% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: black;
+        right: 1150px;
+    }
+}
